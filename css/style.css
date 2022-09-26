@@ -36,7 +36,15 @@ a{
     /* background-color: black; */
 }
 
-.content-container{}
+.content-container{
+    width: 54vw;
+    margin: auto;
+    /* background-color: red; */
+}
+
+section{
+    padding-top: 150px;
+}
 
 /* ------------
     BUTTON
@@ -137,4 +145,21 @@ h1{
     MAIN
 ------------ */
 
+h2{
+    font-size: 50px;
+}
 
+.checkbox{
+    display: flex;
+    font-size: 22px;
+    padding-top: 70px;
+}
+
+.checkbox-2{
+    padding-left: 60px;
+}
+
+input[type=radio]{
+    margin-right: 8px;
+    transform: scale(2);
+}
