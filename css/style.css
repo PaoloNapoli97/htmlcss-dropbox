@@ -9,12 +9,132 @@
     padding: 0;
 }
 
+a{
+    color: inherit;
+    text-decoration: none;
+    text-decoration-style: none;
+}
+
 /* ------------
     COMMON
 ------------ */
 
-.startend-container{
+.nav li, .nav{
+    margin: 0 30px;
+    align-self: center;
+}
 
+.nav ul{
+    font-size: 20px;
+    display: flex;
+    list-style-type: none;
+}
+
+.startend-container{
+    width: 62vw;
+    margin: auto;
+    /* background-color: black; */
 }
 
 .content-container{}
+
+/* ------------
+    BUTTON
+------------ */
+
+.button{
+    font-size: 22px;
+    padding: 12px;
+}
+
+.blue-button{
+
+    color: white;
+    background-color: #0061ff;
+    border: none;
+
+}
+
+/* ------------
+    HEADER
+------------ */
+
+.header-top{
+    background-color: white;
+    display: flex;
+    padding: 20px;
+    height: 80px;
+}
+
+/* <---- Logo + Nav ------> */
+
+.logo-container{
+    display: flex;
+    width: 50vw;
+}
+
+/* <---- Login + Nav ------> */
+
+.login-container{
+    display: flex;
+    justify-content: flex-end;
+    width: 50vw;
+}
+
+.login-container .button{
+    font-size: 18px;
+    padding: 8 0px;
+    padding: 0 12px;
+}
+
+
+/* <---- Hero Title and Box ----> */
+
+.hero{
+    padding-top: 90px;
+    background-color: #b4d0e7;
+}
+
+.hero-box{
+    position: ;
+    display: flex;
+    padding-top: 70px;
+}
+
+h1{
+    font-size: 70px;
+}
+
+.hero-1{
+    font-weight: 300;
+    font-size: 22px;
+    width: 40%;
+    /* background-color: yellow; */
+}
+
+.hero-1 button{
+    margin: 30px 0;
+}
+
+/* <-- position img  --> */
+
+.hero-2{
+    width: 60%;
+    position: relative;
+}
+
+.hero img{
+    width: 100%;
+    position: absolute;
+}
+
+.simbol{
+    padding-top: 50px;
+    font-size: 60px;
+}
+
+/* ------------
+    MAIN
+------------ */
+
+
