@@ -16,9 +16,9 @@ li a, button a{
 }
 
 
-body{
+/* body{
     height: 1000vh;
-}
+} */
 
 /* ------------
     COMMON
@@ -29,7 +29,6 @@ body{
 }
 
 .nav ul{
-    font-size: 20px;
     display: flex;
     list-style-type: none;
 }
@@ -53,7 +52,7 @@ body{
 }
 
 .box-content{
-    padding: 40px 30px;
+    padding: 30px 20px;
 }
 
 .border{
@@ -74,6 +73,10 @@ body{
 
 .light{
     color: gray;
+}
+
+.img{
+    width: 100%;
 }
 
 /* ------------
@@ -105,20 +108,22 @@ body{
 ------------ */
 
 .button{
-    font-size: 20px;
     padding: 12px;
 }
 
 .blue-button{
-
     color: white;
     background-color: #0061ff;
     border: none;
-
 }
 
 .button-width{
     width: 100%;
+}
+
+.white-button{
+    background-color: white;
+    border: 1px black solid;
 }
 
 /* ------------
@@ -129,7 +134,7 @@ body{
     background-color: white;
     display: flex;
     padding: 20px;
-    height: 80px;
+    height: 70px;
     position: fixed;
     width: 100%;
     z-index: 10;
@@ -151,7 +156,7 @@ body{
 }
 
 .login-container .button{
-    font-size: 18px;
+    /* font-size: 18px; */
     padding: 8 0px;
     padding: 0 12px;
 }
@@ -160,23 +165,23 @@ body{
 /* <---- Hero Title and Box ----> */
 
 .hero{
-    padding-top: 180px;
+    padding-top: 150px;
     background-color: #b4d0e7;
 }
 
 .hero-box{
     position: relative;
     display: flex;
-    padding-top: 70px;
+    padding-top: 50px;
 }
 
 h1{
-    font-size: 70px;
+    font-size: 50px;
 }
 
 .hero-1{
     font-weight: 300;
-    font-size: 22px;
+    font-size: 18px;
     /* background-color: yellow; */
 }
 
@@ -196,8 +201,8 @@ h1{
 }
 
 .simbol{
-    padding-top: 50px;
-    font-size: 60px;
+    padding-top: 30px;
+    font-size: 40px;
 }
 
 /* ------------
@@ -205,26 +210,25 @@ h1{
 ------------ */
 
 h2{
-    font-size: 50px;
+    font-size: 40px;
 }
 
 h3{
-    font-size: 26px;
+    font-size: 20px;
 }
 
 .checkbox{
     display: flex;
-    font-size: 22px;
-    padding: 70px 0;
+    padding: 50px 0;
 }
 
 .checkbox-2{
-    padding-left: 60px;
+    padding-left: 40px;
 }
 
 input[type=radio]{
     margin-right: 8px;
-    transform: scale(2);
+    transform: scale(1.5);
 }
 
 /* ------------
@@ -237,19 +241,18 @@ input[type=radio]{
 
 .box-header{
     padding: 12px 0;
-    font-size: 18px;
+    /* font-size: 18px; */
     text-align: center;
     border-bottom: solid 1px lightgrey;
 }
 
 .list-box{
-    font-size: 20px;
-    padding: 18px 0;
+    padding: 4px 0;
 }
 
 .list-box li{
     display: flex;
-    padding: 16px 0;
+    padding: 10px 0;
 }
 
 .list-box i{
@@ -271,11 +274,29 @@ input[type=radio]{
 }
 
 .width70 .list-box{
-    height: 180px;
+    height: 120px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
+section .width40{
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+}
 
+section .width40 p{
+    padding: 20px 0;
+}
 
+section .width40 h3{
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+.width40 .button{
+    margin-top: 30px;
+    font-size: 18px;
+    width: 50%;
+}
