@@ -332,6 +332,7 @@ section .width40 .button{
 .partner img{
     filter: invert(99%) sepia(4%) saturate(157%) hue-rotate(261deg) brightness(116%) contrast(92%);
     width: 50%;
+    margin: auto;
 }
 
 .left-box, .right-box{
@@ -342,10 +343,6 @@ section .width40 .button{
 .partners{
     width: calc(100vw / 3);
     height: calc(100vw / 3);
-}
-
-#img-fix img{
-    margin: auto;
 }
 
 .center-box{
@@ -432,6 +429,7 @@ section .width40 .button{
     padding: 30px 0;
 }
 
-.option-border{
+.option:nth-child(odd){
     border-top: 1px solid black;
+    border-bottom: 1px solid black;
 }
