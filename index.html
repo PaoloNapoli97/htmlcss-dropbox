@@ -20,9 +20,9 @@
         <!-- Header Logo Nav Login  -->
         <div class="header-top">
             <div class="logo-container">
-                <img src="img/logo-small.png" alt="Logo">
                 <div class="nav">
                     <ul>
+                        <li><img src="img/logo-small.png" alt="Logo"></li>
                         <li><a href="http://">Perché Dropbox</a></li>
                         <li><a href="http://">Funzioni</a></li>
                         <li><a href="http://">Piani e Prezzi</a></li>
@@ -47,7 +47,7 @@
                 <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
                 <div class="hero-box">
                     <!-- Left box content  -->
-                    <div class="hero-1">
+                    <div class="hero-1 width40">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eos ab vel reprehenderit voluptas magni, nesciunt ullam laudantium non tempore, architecto vitae quia, a dolorum facere hic deleniti aperiam omnis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut non sint animi aliquid, officia tempore quia laudantium rerum </p>
                         <button class="button blue-button"><a href="http://">Inizia La tua prova gratuita</a></button>
                         <div>Annulla in qualsiasi momento</div>
@@ -56,7 +56,7 @@
                         </div>
                     </div>
                     <!-- Right box content image -->
-                    <div class="hero-2">
+                    <div class="hero-2 width60">
                         <img src="img/jumbo.png" alt="">
                     </div>
                 </div>
@@ -67,22 +67,162 @@
     </header>
 
     <main>
+        <!-- Spaziatura -->
+        <div class="spacer"></div>
         <!-- Section Purchase Options -->
-        <section>
-            <div class="content-container">
-                <h2>Trova il piano business che fa per te</h2>
+        <section  class="content-container">
+            <!-- checkbox -->
+            <h2>Trova il piano business che fa per te</h2>
                 <div class="checkbox">
                     <div class="checkbbox-1">
                         <input type="radio" id="checkbox-1" value="checkbox-1">
                         <label for="checkbbox-1">Fatturazione Mensile</label>
                     </div>
-                        <div class="checkbox-2">
+                    <div class="checkbox-2">
                         <input type="radio" id="checkbox-1" value="checkbox-1">
                         <label for="checkbbox-1">Fatturazione Mensile</label>
                     </div>
                 </div>
-            </div>
+                <!-- Contenitore Opzioni Acquisto -->
+                <div class="box-container">
+                    <!-- Strutura Box -->
+                    <div class="width30 border">
+                        <!-- Header Box -->
+                        <div class="box-header"><i class="fa-solid fa-user"></i> Singolo</div>
+                        <div class="box-content">
+                            <h3>Professional</h3>
+                            <!-- Costo Mensile -->
+                            <div class="list-box">
+                                <ul>
+                                    <li class="strong">€ 12.00</li>
+                                    <li class="light">/mese</li>
+                                </ul>
+                            </div>
+                            <!-- Vantaggi -->
+                            <div class="list-box">
+                                <ul>
+                                    <li><i class="fa-solid fa-user"></i> 1 Utente</li>
+                                    <li><i class="fa-solid fa-folder"></i> 5 TB di spazio di archiviazione sicuro</li>
+                                    <li><i class="fa-solid fa-share-nodes"></i> Funzioni di produttività premium e condivisione di file semplice e sicura</li>
+                                </ul>
+                            </div>
+                            <!-- Prova gratuita -->
+                            <div class="list-box">
+                                    <button class="button blue-button button-width"><a href="http://">Prova gratis per 30 giorni</a></button>
+                                    <div class="half-border">
+                                        oppure <a href="http://">aquista ora</a>
+                                    </div>
+                            </div>
+                            <!-- Cosa ottieni -->
+                            <div class="list-box">
+                                <ul>
+                                    <li class="checkmark-blue"><i class="fa-solid fa-check"></i>Invia file fino a 100gb con Dropbox Transfert</li>
+                                    <li class="checkmark-blue"><i class="fa-solid fa-check"></i>Cartelle offline su dispositivi mobili</li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Secondo Box -->
+                    <div class="width30 border">
+                        <!-- Header Box -->
+                        <div class="box-header"><i class="fa-solid fa-users"></i> Team</div>
+                        <div class="box-content">
+                            <h3>Advanced</h3>
+                            <!-- Costo Mensile -->
+                            <div class="list-box">
+                                <ul>
+                                    <li class="strong">€ 18.00</li>
+                                    <li class="light">/mese</li>
+                                </ul>
+                            </div>
+                            <!-- Vantaggi -->
+                            <div class="list-box">
+                                <ul>
+                                    <li><i class="fa-solid fa-user"></i> 3 o più utenti</li>
+                                    <li><i class="fa-solid fa-folder"></i> Tutto lo spazio di cui ha bisogno il tuo team</li>
+                                    <li><i class="fa-solid fa-share-nodes"></i> Sofisticate funzioni di controllo per tenere al sicuro tutti i file del tuo team</li>
+                                </ul>
+                            </div>
+                            <!-- Prova gratuita -->
+                            <div class="list-box">
+                                    <button class="button blue-button button-width"><a href="http://">Prova gratis per 30 giorni</a></button>
+                                    <div class="half-border">
+                                        oppure <a href="http://">aquista ora</a>
+                                    </div>
+                            </div>
+                            <!-- Cosa ottieni -->
+                            <div class="list-box">
+                                <ul>
+                                    <li class="checkmark-blue"><i class="fa-solid fa-check"></i>Nessun limite di spazio per i file</li>
+                                    <li class="checkmark-blue"><i class="fa-solid fa-check"></i>Cartelle offline su dispositivi mobili</li>
+                                    <li class="checkmark-blue"><i class="fa-solid fa-check"></i>Risparmio del 50% rispetto alle iscrizioni singole</li>
+                                    <li class="checkmark-blue"><i class="fa-solid fa-check"></i>Possibilità di inserire nuovi membri nel team</li>
+                                    <li class="checkmark-blue"><i class="fa-solid fa-check"></i>Gestione dei permessi in base ai ruoli</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Terzo Box -->
+                    <div class="width30 border">
+                        <div class="box-header"><i class="fa-solid fa-building"></i> Azienda</div>
+                        <div class="box-content">
+                            <h3>Enterprise</h3>
+                            <!-- Costo Mensile -->
+                            <div class="list-box">
+                                <ul>
+                                    <li class="strong">Contattaci</li>
+                                    <li class="light">-</li>
+                                </ul>
+                            </div>
+                            <!-- Vantaggi -->
+                            <div class="list-box">
+                                <ul>
+                                    <li><i class="fa-solid fa-user"></i> 3 o più utenti</li>
+                                    <li><i class="fa-solid fa-folder"></i> Tutto lo spazio di cui ha bisogno il tuo team</li>
+                                    <li><i class="fa-solid fa-share-nodes"></i> Sofisticate funzioni di controllo per tenere al sicuro tutti i file del tuo team</li>
+                                </ul>
+                            </div>
+                            <!-- Prova gratuita -->
+                            <div class="list-box">
+                                    <button class="button blue-button button-width"><a href="http://">Prova gratis per 30 giorni</a></button>
+                                    <div class="half-border">
+                                        oppure <a href="http://">aquista ora</a>
+                                    </div>
+                            </div>
+                            <!-- Cosa ottieni -->
+                            <div class="list-box">
+                                <ul>
+                                    <li class="checkmark-blue"><i class="fa-solid fa-check"></i>Cartelle offline su dispositivi mobili</li>
+                                    <li class="checkmark-blue"><i class="fa-solid fa-check"></i>Servizio assistenza 24/h</li>
+                                    <li class="checkmark-blue"><i class="fa-solid fa-check"></i>Possibilità di personalizzazione totale</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- Grande contenitore acquisti aziente -->
+                <div class="width100 border">
+                    <div class="box-header"><i class="fa-solid fa-building"></i> Team</div>
+                    <div class="flex-container box-content">
+                        <div class="width70">
+                            <h3>Enterprise</h3>
+                            <div class="list-box">
+                                <h4>Contatta l'ufficio vendite per i prezzi</h4>
+                                <p>Soluzionu personalizzate e supporto su misura per aiutare i professionalisti IT nella gestione su qualsiasi scala.</p>
+                            </div>
+                        </div>
+                        <div class="width30">
+                            <button class="button blue-button button-width"><a href="http://">Prova gratis per 30 giorni</a></button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Spaziatura -->
+                <div class="spacer"></div>
         </section>
+
+        
     </main>
     
 </body>

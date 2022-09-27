@@ -9,16 +9,20 @@
     padding: 0;
 }
 
-a{
+li a, button a{
     color: inherit;
     text-decoration: none;
     text-decoration-style: none;
 }
 
+
+body{
+    height: 1000vh;
+}
+
 /* ------------
     COMMON
 ------------ */
-
 .nav li, .nav{
     margin: 0 20px;
     align-self: center;
@@ -42,8 +46,58 @@ a{
     /* background-color: red; */
 }
 
-section{
-    padding-top: 150px;
+.box-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.box-content{
+    padding: 40px 30px;
+}
+
+.border{
+    border: solid 1px lightgray;
+}
+
+.flex-container{
+    display: flex;
+}
+
+.spacer{
+    height: 150px;
+}
+
+.strong{
+    font-weight: 700;
+}
+
+.light{
+    color: gray;
+}
+
+/* ------------
+    WIDTH COMMON
+------------ */
+
+.width40{
+    width: 40%;
+}
+
+.width60{
+    width: 60%;
+}
+
+.width100{
+    width: 100%
+}
+
+.width70{
+    width: 70%;
+}
+
+.width30{
+    width: 30%;
 }
 
 /* ------------
@@ -51,7 +105,7 @@ section{
 ------------ */
 
 .button{
-    font-size: 22px;
+    font-size: 20px;
     padding: 12px;
 }
 
@@ -63,6 +117,10 @@ section{
 
 }
 
+.button-width{
+    width: 100%;
+}
+
 /* ------------
     HEADER
 ------------ */
@@ -72,13 +130,16 @@ section{
     display: flex;
     padding: 20px;
     height: 80px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
 }
 
 /* <---- Logo + Nav ------> */
 
 .logo-container{
     display: flex;
-    width: 50vw;
+    width: 50%;
 }
 
 /* <---- Login + Nav ------> */
@@ -86,7 +147,7 @@ section{
 .login-container{
     display: flex;
     justify-content: flex-end;
-    width: 50vw;
+    width: 50%;
 }
 
 .login-container .button{
@@ -99,12 +160,12 @@ section{
 /* <---- Hero Title and Box ----> */
 
 .hero{
-    padding-top: 90px;
+    padding-top: 180px;
     background-color: #b4d0e7;
 }
 
 .hero-box{
-    position: ;
+    position: relative;
     display: flex;
     padding-top: 70px;
 }
@@ -116,7 +177,6 @@ h1{
 .hero-1{
     font-weight: 300;
     font-size: 22px;
-    width: 40%;
     /* background-color: yellow; */
 }
 
@@ -127,7 +187,6 @@ h1{
 /* <-- position img  --> */
 
 .hero-2{
-    width: 60%;
     position: relative;
 }
 
@@ -149,10 +208,14 @@ h2{
     font-size: 50px;
 }
 
+h3{
+    font-size: 26px;
+}
+
 .checkbox{
     display: flex;
     font-size: 22px;
-    padding-top: 70px;
+    padding: 70px 0;
 }
 
 .checkbox-2{
@@ -163,3 +226,56 @@ input[type=radio]{
     margin-right: 8px;
     transform: scale(2);
 }
+
+/* ------------
+    SECTION 1
+------------ */
+
+/* ------------
+    BOX
+------------ */
+
+.box-header{
+    padding: 12px 0;
+    font-size: 18px;
+    text-align: center;
+    border-bottom: solid 1px lightgrey;
+}
+
+.list-box{
+    font-size: 20px;
+    padding: 18px 0;
+}
+
+.list-box li{
+    display: flex;
+    padding: 16px 0;
+}
+
+.list-box i{
+    padding-right: 10px ;
+}
+
+.list-box ul, {
+    list-style-type: none;
+}
+
+.half-border{
+    padding: 50px 0;
+    border-bottom: solid 1px lightgrey;
+    border-image: linear-gradient(to right, lightgrey 20%, transparent 20%) 100% 1;
+}
+
+.checkmark-blue i{
+    color: blue;
+}
+
+.width70 .list-box{
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
