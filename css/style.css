@@ -389,6 +389,7 @@ section .width40 .button{
 
 .designit{
     background-color: #a2d39b;
+    box-shadow: inset 0px 0px 0px 14px rgba(255, 255, 255, 0.5);
 }
 
 .topps{
