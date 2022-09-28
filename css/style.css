@@ -23,6 +23,7 @@ li a, button a{
 /* ------------
     COMMON
 ------------ */
+
 .nav li, .nav{
     margin: 0 20px;
     align-self: center;
@@ -147,6 +148,7 @@ li a, button a{
     position: fixed;
     width: 100%;
     z-index: 10;
+    box-shadow: 0px 0px 5px 2px rgb(0 0 0 / 20%);
 }
 
 /* <---- Logo + Nav ------> */
@@ -166,8 +168,8 @@ li a, button a{
 
 .login-container .button{
     /* font-size: 18px; */
-    padding: 8 0px;
-    padding: 0 12px;
+    padding: 6 0px;
+    padding: 0 8px;
 }
 
 
