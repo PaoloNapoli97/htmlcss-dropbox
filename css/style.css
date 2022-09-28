@@ -48,7 +48,6 @@ li a, button a{
 
 .box-container{
     display: flex;
-    justify-content: space-between;
     margin-bottom: 50px;
 }
 
@@ -86,6 +85,10 @@ li a, button a{
 
 .flex-wrap{
     flex-wrap: wrap;
+}
+
+.space-between{
+    justify-content: space-between;
 }
 
 /* ------------
@@ -150,7 +153,6 @@ li a, button a{
     padding: 20px;
     height: 70px;
     position: fixed;
-    justify-content: space-between;
     width: 100%;
     z-index: 10;
     box-shadow: 0px 0px 5px 2px rgb(0 0 0 / 20%);
@@ -194,8 +196,6 @@ h1{
 
 .hero-1{
     font-weight: 300;
-    /* font-size: 18px; */
-    /* background-color: yellow; */
 }
 
 .hero-1 button{
@@ -374,10 +374,6 @@ section .width40 .button{
     background-color: #b4d0e7;
 }
 
-.free-trial-container .content-container{
-    justify-content: space-between;
-}
-
 .free-trial-container h4{
     font-size: 30px;
     color: #61082b;
@@ -439,6 +435,25 @@ section .width40 .button{
     border-bottom: 1px solid black;
 }
 
+.option-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ------------
+    TOGGLE
+------------ */
+
+#tog, #content { display: none }
+#tog:checked + #content { display: block }
+
+#tog-2, #content-2 { display: none }
+#tog-2:checked + #content-2 { display: block }
+
+#tog-3, #content-3 { display: none }
+#tog-3:checked + #content-3 { display: block }
+
 /* ------------
     FOOTER
 ------------ */
@@ -454,7 +469,6 @@ footer h5{
 }
 
 .footer-box{
-    justify-content: space-between;
     padding-top: 100px;
 }
 
@@ -476,3 +490,4 @@ footer .half-border{
     padding: 24px 0;
     color: lightgray;
 }
+
