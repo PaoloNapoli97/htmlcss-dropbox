@@ -146,6 +146,7 @@ li a, button a{
     padding: 20px;
     height: 70px;
     position: fixed;
+    justify-content: space-between;
     width: 100%;
     z-index: 10;
     box-shadow: 0px 0px 5px 2px rgb(0 0 0 / 20%);
@@ -155,15 +156,12 @@ li a, button a{
 
 .logo-container{
     display: flex;
-    width: 50%;
 }
 
 /* <---- Login + Nav ------> */
 
 .login-container{
     display: flex;
-    justify-content: flex-end;
-    width: 50%;
 }
 
 .login-container .button{
