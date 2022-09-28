@@ -35,13 +35,13 @@ li a, button a{
 }
 
 .startend-container{
-    width: 62vw;
+    width: 62%;
     margin: auto;
     /* background-color: black; */
 }
 
 .content-container{
-    width: 54vw;
+    width: 54%;
     margin: auto;
     /* background-color: red; */
 }
@@ -110,6 +110,10 @@ li a, button a{
 
 .width30{
     width: 30%;
+}
+
+.width20{
+    width: 20%;
 }
 
 /* ------------
@@ -433,4 +437,42 @@ section .width40 .button{
 .option:nth-child(odd){
     border-top: 1px solid black;
     border-bottom: 1px solid black;
+}
+
+/* ------------
+    FOOTER
+------------ */
+
+footer{
+    color: white;
+    background-color: #000000;
+}
+
+footer h5{
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+
+.footer-box{
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+footer li{
+    font-size: 16px;
+    font-weight: 300;
+    padding: 4px 0;
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+footer .half-border{
+    color: white;
+}
+
+.language-footer{
+    padding: 24px 0;
+    color: lightgray;
 }
